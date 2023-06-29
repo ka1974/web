@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Vue SPA</title>
+
+    <!-- Phosphor Icons -->
+    <link href="https://unpkg.com/phosphor-icons" rel="stylesheet">
+
+    <!-- Vue -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
+
+    <!-- Vue Router -->
+    <script src="https://unpkg.com/browse/vue-router@4.2.2/dist/vue-router.global.js"></script>
+
+    <!-- Vue Loader -->
+    <script src="https://unpkg.com/http-vue-loader"></script>
+
+</head>
+
+<body>
+
+    <div id="app">
+        <ul>
+            <router-link tag="li" to="/">page1</router-link>
+            <router-link tag="li" to="/page2">page2</router-link>
+        </ul>
+        <router-view></router-view>
+    </div>
+
+    <script src="./main.js"></script>
+
+</body>
+
+</html>
